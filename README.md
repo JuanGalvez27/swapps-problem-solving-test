@@ -15,4 +15,7 @@ A validation is done in case it is not a string, after this, it was decided to i
 Then, the forEach method was implemented since it is the fastest to go through this type of arrays, in order to make a comparison of each element with the rest, and store it in an object that contained the substring as key and the number of repetitions as value.
 Finally, the Object.entries method was implemented to transform my object into an array, and filter the elements whose repetition value is greater than 1.
 
+To test the solution you can run Visual Studio Code and put the string inside the test variable, and inside the console run the command:
+node technicalTest.js
+
 
